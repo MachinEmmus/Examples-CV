@@ -1,0 +1,110 @@
+.item_skills{
+    display: flex;
+    flex-wrap: wrap ;
+    margin-top: 2em;
+}
+
+/*
+Programming language c
+*/
+.circular-progress.c{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: auto;
+    background: linear-gradient(
+        0deg,
+        #1578B6 50%,
+        #24292e 55%
+    );
+    position: relative;
+    transform: rotate(108deg);
+}
+
+.circular-progress.c::before{
+    content: "_C_";
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color:  #24292e;
+    text-align: center;
+    line-height: 6rem;
+    transform: rotate(-108deg);
+}
+
+.circular-progress.c::after{
+    content: "60%";
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: linear-gradient(
+        transparent 50%,
+        white 50%
+    );
+    transform: scale(1.1) rotate(-108deg);
+    text-align: center;
+    line-height: 11rem;
+}
+
+/*
+Programming language python
+*/
+.circular-progress.python{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: auto;
+    background: linear-gradient(
+        0deg,
+        #F2B705 50%,
+        #24292e 55%
+    );
+    position: relative;
+    transform: rotate(126deg);
+}
+
+.circular-progress.python::before{
+    content: "Python";
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white content-box;
+    border-radius: 50%;
+    padding: .5em;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color:  #24292e;
+    text-align: center;
+    line-height: 6rem;
+    transform: rotate(-126deg);
+}
+
+.circular-progress.python::after{
+    content: "70%";
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: linear-gradient(
+        transparent 50%,
+        white 50%
+    );
+    transform: scale(1.1) rotate(-126deg);
+    text-align: center;
+    line-height: 11rem;
+}
+

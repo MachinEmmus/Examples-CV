@@ -1,0 +1,7 @@
+.item_about_me .description{
+    display: none;
+}
+
+.description p{
+    padding-bottom: 10px;
+}
