@@ -1,7 +1,7 @@
 :root{
-    --primaryColor: #efefe8;
-    --secundaryColor: #08589d;
-
+    --primaryColor: #efefe8; /*Star White*/
+    --secundaryColor: #1a4c8b; /*Olympian Blue*/
+    --black: #26262a; /*Black Beauty*/
 }
 
 body {
