@@ -1,5 +1,5 @@
 {
-    "name": "cv-yeison",
+    "name": "cv-emmus",
     "version": "1.0.0",
     "description": "my curriculum vitae",
     "main": "server.js",
@@ -10,9 +10,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "github.com/toxiicsab/cv"
+        "url": "github.com/MachinEmmus/cv"
     },
-    "author": "Yeison Toro",
+    "author": "Emmus Monsalve",
     "license": "Apache License 2.0",
     "dependencies": {
         "cors": "^2.8.5",
