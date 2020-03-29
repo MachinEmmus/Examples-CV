@@ -23,4 +23,3 @@ npm i -S cors
 ```
 npm i -S -D nodemon
 ```
-# cv
